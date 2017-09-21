@@ -1,4 +1,4 @@
-FROM redis:alpine
+FROM redis:4-alpine
 MAINTAINER Dan Richards <dan.richards@lush.co.uk>
 
 ENV REDIS_MASTER_SERVICE_HOST redis-master
